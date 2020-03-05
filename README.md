@@ -42,7 +42,7 @@ Things you may want to cover:
 ### Association
 - has_many :messages
 - has_many :users_groups
-- has_many :groups, through:   :users_groups
+- has_many :users, through:   :users_groups
 
 ## users_groupsテーブル
 |Column|Type|Options|
@@ -50,7 +50,8 @@ Things you may want to cover:
 |group_id|integer|null: false, foreign_key: true|
 |user_id|integer|null: false, foreign_key: true|
 ### Association
-- belongs_to :u
+- belongs_to :user
+- belongs_to :group
 
 ## messagesテーブル
 |Column|Type|Options|
