@@ -1,0 +1,43 @@
+.main-chat
+  .main-chat__header
+    .main-chat__header__left
+      .main-chat__header__left-name
+        JavaScript
+      .main-chat__header__left-member
+        Member : master
+    .main-chat__header__edit-btn
+      = link_to "#", class: "contents__btn" do
+        = "Edit"
+  
+  .main-chat__chat-list
+    .main-chat__chat-list__info-box
+      .main-chat__chat-list__info
+        .main-chat__chat-list__info-data
+          master
+        .main-chat__chat-list__daytime
+          2020/03/07(Sat) 00:00:00
+      .main-chat__chat-list__comment
+        .main-chat__chat-list__text
+          おはよう
+    .main-chat__chat-list__info-box
+      .main-chat__chat-list__info
+        .main-chat__chat-list__info-data
+          branch
+        .main-chat__chat-list__daytime
+          2020/03/07(Sat) 00:00:00
+      .main-chat__chat-list__comment
+        .main-chat__chat-list__text
+          こんばんは
+  
+  
+  .chat-form
+    %form.new_message
+      .input-box
+        %input{type: "text", class: "input-box__text",placeholder: "type a message"}
+        %label{class: "input-box__image"}
+          = icon('far', 'image')
+          %input{type: "file", class: "input-box__image__file"}
+      %button{type: "submit", class: "submit-btn"}
+        .ok
+          Send
+        
