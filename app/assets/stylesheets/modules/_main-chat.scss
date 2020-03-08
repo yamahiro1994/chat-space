@@ -15,7 +15,7 @@
       margin-top: 35px;
     }
       
-    &__left-name {
+      &__left-name {
         font-size: 20px;
         margin-bottom: 15px;
         color: #333333;
@@ -27,7 +27,7 @@
         color: #999999;
       }
     
-      &__edit-btn {
+    &__edit-btn {
       height: 40px;
       width: 72px;
       line-height: 40px;
@@ -37,10 +37,10 @@
       border: 1px solid #38aef0;
     }
     
-    a {
-      color: #38aef0; 
-      text-decoration: none;
-    }
+      a {
+        color: #38aef0; 
+        text-decoration: none;
+      }
   }
 
 
