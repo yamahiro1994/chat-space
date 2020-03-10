@@ -48,16 +48,18 @@
     height: calc(100vh - 190px);
     padding:35px 40px;
     background-color: #fafafa;
+    overflow: scroll;
   }
     
     &__chat-list__info-box {
-      height: 106px;
-      padding-bottom: 46px;
+      // height: 106px;
+      margin-bottom: 46px;
     }
       
       &__chat-list__info {
-        display: flex;
+        display: flex; 
         height: 24px;
+       
         margin-bottom: 12px;
       }
         
@@ -74,7 +76,7 @@
         }
         
         &__chat-list__comment {
-          height: 24px;
+          // height: 24px;
         }
           
           &__chat-list__text {

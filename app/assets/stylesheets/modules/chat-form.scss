@@ -3,37 +3,34 @@
     padding: 20px 40px;
     background-color: #ddd; 
   
-  form {
-    height: 50px;
+  
+
+  .input-box {
     display: flex;
-
-    .input-box {
-      width: 100%;
+    position: relative;
+    &__text {
       display: flex;
-      position: relative;
-      &__text {
-        display: flex;
-        height: 50px;
-        width: 100%;
-        color: #ddd;
-        border-style: none;
-        padding: 0 30px 0 10px;
+      height: 50px;
+      width: 100%;
+      color: black;
+      border-style: none;
+      padding: 0 30px 0 10px;
         
-      }
-
-      &__image {
-        cursor: pointer;
-        position: absolute;
-        top: 9px;
-        right: 10px;
-        font-size: 23px;
-        text-rendering: auto;
-      }
-        &__image__file {
-          display: none;
-        }
-      
     }
+
+    &__image {
+      cursor: pointer;
+      position: absolute;
+      top: 9px;
+      right: 125px;
+      font-size: 23px;
+      text-rendering: auto;
+    }
+      &__image__file {
+        display: none;
+      }
+      
+  }
     .submit-btn {
       height: 50px;
       width: 100px;
@@ -44,9 +41,4 @@
       border-style: none;
       cursor: pointer;
     }
-
-      .ok {
-        font-size: 17px;
-      }
-  }
 }
