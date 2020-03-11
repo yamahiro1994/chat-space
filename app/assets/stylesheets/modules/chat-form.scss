@@ -4,10 +4,11 @@
     background-color: #ddd; 
   
   
-
+  
   .input-box {
     display: flex;
     position: relative;
+    
     &__text {
       display: flex;
       height: 50px;
@@ -41,4 +42,7 @@
       border-style: none;
       cursor: pointer;
     }
+  .field_with_errors{
+    width: 100%;
+  }
 }
