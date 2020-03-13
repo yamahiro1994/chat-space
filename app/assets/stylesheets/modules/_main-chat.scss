@@ -2,6 +2,7 @@
   height: 100vh;
   width: calc(100vw - 300px);
   background-color: #ffffff;
+
   
   &__header {
     height: 100px;
@@ -52,14 +53,12 @@
   }
     
     &__chat-list__info-box {
-      // height: 106px;
       margin-bottom: 46px;
     }
       
       &__chat-list__info {
         display: flex; 
-        height: 24px;
-       
+        height: 24px;      
         margin-bottom: 12px;
       }
         
