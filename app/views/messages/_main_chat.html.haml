@@ -4,6 +4,7 @@
       .main-chat__header__left-name
         = @group.name
       .main-chat__header__left-member
+        Member :
         - @group.users.each do |user|
           = user.name
     .main-chat__header__edit-btn
